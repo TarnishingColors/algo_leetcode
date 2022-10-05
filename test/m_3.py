@@ -5,8 +5,7 @@ s = Solution()
 
 
 def test_case1():
-    print(s.lengthOfLongestSubstring('abcabcbb'))
-    # assert s.lengthOfLongestSubstring('abcabcbb') == 3
+    assert s.lengthOfLongestSubstring('abcabcbb') == 3
 
 
 def test_case2():
