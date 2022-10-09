@@ -25,7 +25,7 @@ def test_case1():
         result.append(cur.val if cur else None)
         if cur and (cur.left or cur.right):
             stack.extend([cur.left, cur.right])
-    print(result)
+
     assert result == [3, 4, 5, 5, 4, None, 7]
 
 
