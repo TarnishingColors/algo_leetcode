@@ -1,4 +1,3 @@
-from structures import ListNode
 from leetcode.m_77 import Solution
 
 
@@ -9,7 +8,6 @@ def test(func):
     def inner(*args, **kwargs):
         result, expected_result = func(*args, **kwargs)
 
-        print(result)
         assert result == expected_result
 
     return inner
